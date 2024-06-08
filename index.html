@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="static/images/BrickMii Logo Transparent.png">
+    <title>BrickMii | Home</title>
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="index.html"><img src="static/images/BrickMii Logo Transparent.png"/></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu();"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu();"></i>
+        </nav>
+
+        <div class="text-box">
+            <img src="static/images/BrickMii Logo Transparent.png" width="425" height="425"/>
+            <p>Here at BrickMii, we provide humorous guides on how to "brick" your Wii for entertainment purposes only.</p>
+            <p class="disclaimer">DISCLAIMER: All methods described on this site are for entertainment purposes only. Attempting to follow these methods may result in damage to your Wii console. We do not endorse or encourage any illegal activities.</p>
+            <a class="hero-btn" id="heroButtonGuides">Explore Our Guides!</a>
+        </div>
+    </section>
+
+    <section class="guides">
+        <h1 id="guidesHeading">Guides</h1>
+        <p>Here at BrickMii, we present humorous guides on "bricking" your Wii. Please remember, these methods are not to be taken seriously and should not be attempted.</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Method 1: The Homebrew Channel & KoreanKii (003 Brick)</h3>
+                <p>Note: This method is presented for entertainment purposes only and should not be attempted. It may result in rendering your Wii console unusable.</p>
+                <p>You'll need: a Nintendo Wii with HBC installed, and an SD card with the Homebrew Browser installed on it.</p>
+                <br/>
+                <p>Step 1. Put the SD card into your Wii.</p>
+                <p>Step 2. Turn your Wii on.</p>
+                <p>Step 3. Open the Homebrew Browser on your Wii.</p>
+                <p>Step 4. Install KoreanKii from the Homebrew Browser. (note: it may take a bit of searching to find KoreanKii in the list)</p>
+                <p>Step 5. Launch KoreanKii from the Homebrew Channel.</p>
+                <p>A menu will show asking you to press + to add the Korean key and - to remove the Korean key.</p>
+                <p>Step 6. Press + to add the Korean key. When it asks you if you are sure and want to take the risks, press YES. Note that this may render your console unusable.</p>
+                <p>Step 7. Enjoy your "bricked" console!</p>
+            </div>
+            <div class="course-col">
+                <h3>Method 2: The Literal Brick.</h3>
+                <p>Note: This method is presented for entertainment purposes only and should not be attempted. It may result in causing severe damage to your Wii console.</p>
+                <p>You'll need: a Nintendo Wii, and a brick.</p>
+                <br/>
+                <p>Step 1. Turn your Wii off if it is already on. I recommend taking it outside before performing this method.</p>
+                <p>Step 2. Take your brick and drop it onto your Wii from a high height. You can make this more effective by slamming the brick onto the Wii.</p>
+                <p>Step 3. Enjoy your "bricked" console!</p>
+            </div>            
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h1>Testimonials</h1>
+        <p>Get honest answers from the users of BrickMii.</p>
+        <div class="row">
+            <div class="testimonial-col">
+                <img src="static/images/arslaan_pathan.png"/>
+                <div>
+                    <p>BrickMii is the best resource you could ever want when you're looking to "brick" your Wii.</p>
+                    <h3>Arslaan Pathan, CEO</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </div>
+            </div>
+            <div class="testimonial-col">
+                <img src="static/images/default_user.jpg"/>
+                <div>
+                    <p>BrickMii is good</p>
+                    <h3>mysteryqueenleah</h3>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>BrickMii was created as a joke website just for the developer (Arslaan Pathan, @RealArslaanYT on YouTube) to learn web development. </p>
+        <p>It was never meant to be a proper site, and it never really will. Though, Arslaan Pathan, the developer of this site, does have plans to upgrade his <a href="https://realarslaanyt.github.io">current site</a> with his newfound knowledge.</p>
+        <div class="icons">
+            <i class="fa fa-youtube-play" id="youtube_icon"></i>
+            <i class="fa fa-github" id="github_icon"></i>
+            <i class="fa fa-wifi" id="website_icon"></i>
+        </div>
+    </section>
+
+    <script src="static/js/index.js"></script>
+</body>
+</html>
